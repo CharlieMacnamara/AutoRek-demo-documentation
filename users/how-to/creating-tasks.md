@@ -39,7 +39,7 @@ Ensure you have:
 
 Access the Data Feed Editor from the Data Feeds List page:
 
-![Data Feeds List](/assets/images/dashboard/common-process-csv.png)
+![Data Feeds List]({{ site.baseurl }}/assets/images/dashboard/common-process-csv.png)
 
 * Click the *Add* button to create a new Data Feed.
 * Select an existing Data Feed from the list to view or edit it.
@@ -47,7 +47,7 @@ Access the Data Feed Editor from the Data Feeds List page:
 Once you have opened a new or selected an existing Data Feed, the
 configuration process follows these main stages:
 
-![Data Feed Configuration Flow](/assets/images/dashboard/data-flow-diagram.png)
+![Data Feed Configuration Flow]({{ site.baseurl }}/assets/images/dashboard/data-flow-diagram.png)
 
 ## Configuration Steps (Tabs)
 
@@ -57,7 +57,7 @@ Data Feed configuration covers several tabs.
 
 Capture identifying information for the Data Feed.
 
-![Details Tab](/assets/images/dashboard/details-tab.png)
+![Details Tab]({{ site.baseurl }}/assets/images/dashboard/details-tab.png)
 
 * **Data feed name:** Assign a clear, descriptive name.
 * **Summary:** Briefly describe the feed's purpose.
@@ -68,7 +68,7 @@ Capture identifying information for the Data Feed.
 
 Define how the file is read and parsed here.
 
-![Settings Tab](/assets/images/dashboard/settings-tab.png)
+![Settings Tab]({{ site.baseurl }}/assets/images/dashboard/settings-tab.png)
 
 * **Import sample file:** Use the *Choose File* button to upload your
   representative sample file.
@@ -95,7 +95,7 @@ Define how the file is read and parsed here.
 
 Define the structure and data types for source file columns.
 
-![Columns Tab](/assets/images/dashboard/columns-tab.png)
+![Columns Tab]({{ site.baseurl }}/assets/images/dashboard/columns-tab.png)
 
 * **Auto-Generate Columns:** Use after configuring the Settings Tab and
   parsing a sample file.
@@ -114,7 +114,7 @@ Define the structure and data types for source file columns.
 
 Manipulate raw data text (e.g., find/replace) *before* parsing.
 
-![Preprocessor Tab](/assets/images/dashboard/preprocessor-tab.png)
+![Preprocessor Tab]({{ site.baseurl }}/assets/images/dashboard/preprocessor-tab.png)
 
 * **Add Preprocessing Rule:** Define text manipulation rules to apply to the
   raw input before parsing.
@@ -125,7 +125,7 @@ Manipulate raw data text (e.g., find/replace) *before* parsing.
 
 Define parameters for use in later configuration steps.
 
-![Parameters Tab](/assets/images/dashboard/parameters-tab.png)
+![Parameters Tab]({{ site.baseurl }}/assets/images/dashboard/parameters-tab.png)
 
 * **Add Parameter:** Create named values referenced throughout the
   configuration.
@@ -136,7 +136,7 @@ Define parameters for use in later configuration steps.
 
 Define validation rules after parsing for flagging errors or warnings.
 
-![Validation Tab](/assets/images/dashboard/validation-tab.png)
+![Validation Tab]({{ site.baseurl }}/assets/images/dashboard/validation-tab.png)
 
 * **Add Validation Rule:** Create rules to flag issues.
 
@@ -147,7 +147,7 @@ Define validation rules after parsing for flagging errors or warnings.
 Configure tasks to run after data feed processing completes (e.g., triggering
 another process).
 
-![Post Execution Tab](/assets/images/dashboard/post-execution-tab.png)
+![Post Execution Tab]({{ site.baseurl }}/assets/images/dashboard/post-execution-tab.png)
 
 * **Add Post Execution Task:** Define processes to run automatically after the
   data feed completes.
