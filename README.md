@@ -3,15 +3,57 @@
 </p>
 <br><br>
 <p align="center">
-    <h1 align="center">Just the Docs</h1>
-    <p align="center">A modern, highly customizable, and responsive Jekyll theme for documentation with built-in search.<br>Easily hosted on GitHub Pages with few dependencies.</p>
-    <p align="center"><strong><a href="https://just-the-docs.com/">See it in action!</a></strong></p>
-    <br><br><br>
+    <h1 align="center">AutoRek V6 Documentation</h1>
+    <p align="center">A demo documentation page for Charlie Macnamara</p>
+    <br><br>
 </p>
 
-<p align="center">A video walkthrough of various Just the Docs features</p>
+## Overview
 
-https://user-images.githubusercontent.com/85418632/211225192-7e5d1116-2f4f-4305-bb9b-437fe47df071.mp4
+This repository contains a demonstration documentation site built using the Just the Docs Jekyll theme. It has been customized and configured to showcase Charlie Macnamara's technical authoring and documentation skills.
+
+## Purpose
+
+This documentation site demonstrates:
+
+- Clear, well-structured technical documentation
+- Effective information architecture
+- Modern documentation design principles
+- User-friendly navigation and search functionality
+- Responsive layout for all devices
+
+## Features
+
+- Comprehensive documentation for a fictional financial reconciliation software (Autorek V6)
+- Documentation organized by user roles (Users, Developers, Administrators)
+- Dark theme for reduced eye strain
+- Built-in search functionality
+- Mobile-friendly responsive design
+
+## Demo Site Structure
+
+The documentation is organized into the following main sections:
+
+- **Users Guide**: Documentation for end users of the software
+- **Developers Guide**: Technical documentation for developers integrating with the system
+- **Administrators Guide**: Guide for system administrators managing the platform
+
+## Technical Implementation
+
+This site is built using:
+
+- Jekyll static site generator
+- Just the Docs theme (modified)
+- Custom styling and branding
+- GitHub Pages for hosting
+
+## Contact
+
+For more information about Charlie Macnamara's technical writing services, please visit [charliemacnamara.com](https://charliemacnamara.com).
+
+---
+
+*This is a demonstration project and does not represent an actual product or service.*
 
 ## Installation
 

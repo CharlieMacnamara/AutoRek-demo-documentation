@@ -1,1 +1,13 @@
 // custom SCSS (or CSS) goes here
+
+// Add a slightly curved border to images
+img {
+  border-radius: 6px;
+}
+
+// Additional styling for vertical/portrait images
+// Add class="vertical-img" to portrait orientation images
+.vertical-img {
+  border-radius: 6px;
+  // You can add additional styling specific to vertical images here
+}
