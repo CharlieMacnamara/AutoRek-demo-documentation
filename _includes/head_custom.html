@@ -1,0 +1,18 @@
+<!-- Fix image URLs that don't have baseurl -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Get baseurl from Jekyll
+    var baseurl = "{{ site.baseurl }}";
+    if (!baseurl) return;
+
+    // Find all images
+    var images = document.querySelectorAll('img');
+    images.forEach(function(img) {
+      var src = img.getAttribute('src');
+      // If the src starts with a / but doesn't include baseurl, add it
+      if (src && src.startsWith('/') && !src.startsWith(baseurl)) {
+        img.setAttribute('src', baseurl + src);
+      }
+    });
+  });
+</script>

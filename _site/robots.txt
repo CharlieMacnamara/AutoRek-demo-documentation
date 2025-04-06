@@ -1,1 +1,1 @@
-Sitemap: http://localhost:4000/AutoRek-demo-documentation/sitemap.xml
+Sitemap: https://autorek-docs.example.com/AutoRek-demo-documentation/sitemap.xml

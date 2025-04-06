@@ -153,3 +153,6 @@ gh_edit_branch: "" # the branch that your docs is served from
 gh_edit_view_mode: "" # "tree" or "edit" if you want the user to jump into the editor immediately
 
 callouts_level: quiet # or loud
+
+# Absolute URL correction for images
+absolute_url: true
