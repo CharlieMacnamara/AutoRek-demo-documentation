@@ -37,7 +37,7 @@ heading_anchors: true
 # Aux links for the upper right navigation
 aux_links:
   "GitHub":
-    - "//https://github.com/CharlieMacnamara/"
+    - "https://github.com/CharlieMacnamara/AutoRek-demo-documentation"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
@@ -156,3 +156,18 @@ callouts_level: quiet # or loud
 
 # Absolute URL correction for images
 absolute_url: true
+
+# Exclude test fixtures and other files from navigation
+exclude:
+  - fixtures/
+  - "*.gemspec"
+  - "*.gem"
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.txt
+  - README.md
+  - CHANGELOG.md
+  - MIGRATION.md
+  - Rakefile
+  - package.json
+  - package-lock.json
