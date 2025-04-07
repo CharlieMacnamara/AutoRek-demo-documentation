@@ -37,7 +37,7 @@ heading_anchors: true
 # Aux links for the upper right navigation
 aux_links:
   "GitHub":
-    - "https://github.com/CharlieMacnamara/AutoRek-demo-documentation"
+    - "https://github.com/CharlieMacnamara/"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
@@ -59,7 +59,7 @@ back_to_top_text: "Back to top"
 gh_edit_link: false
 
 # Footer content
-footer_content: "Demo by Charlie Macnamara &copy; 2023"
+footer_content: "Demo by Charlie Macnamara &copy; 2025"
 
 # Collections for docs structure
 collections:
