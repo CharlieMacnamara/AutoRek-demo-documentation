@@ -160,6 +160,11 @@ absolute_url: true
 # Exclude test fixtures and other files from navigation
 exclude:
   - fixtures/
+  - vendor/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - node_modules/
   - "*.gemspec"
   - "*.gem"
   - Gemfile
